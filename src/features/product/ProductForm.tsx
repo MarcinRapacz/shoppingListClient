@@ -61,7 +61,7 @@ const ProductForm: React.FC<Props> = (props: Props) => {
   };
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit)}>
+    <Form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
       <Form.Group controlId="formBasicName" className="input-group">
         <Form.Control
           type="input"

@@ -49,7 +49,7 @@ const FormShoppingList: React.FC<Props> = (props: Props) => {
   };
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit)}>
+    <Form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
       <h6>{props.title}</h6>
       <Form.Group controlId="formBasicName" className="input-group">
         <Form.Control
