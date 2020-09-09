@@ -40,6 +40,7 @@ const FacebookAuth: React.FC = () => {
       textButton=""
       icon={<FontAwesomeIcon icon={faFacebookF} />}
       cssClass="btn btn-block FacebookLogin"
+      disableMobileRedirect={true}
     />
   );
 };
