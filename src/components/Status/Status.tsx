@@ -40,8 +40,8 @@ const Status: React.FC<Props> = (props: Props) => {
   };
 
   return (
-    <section className={`Status ${status}`} onClick={handleClick}>
-      <FontAwesomeIcon icon={icon} />
+    <section className={`Status ${status}`}>
+      <FontAwesomeIcon icon={icon} onClick={handleClick} />
     </section>
   );
 };
